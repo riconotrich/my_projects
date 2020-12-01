@@ -1,0 +1,371 @@
+.navbar-main{
+
+	height: 80px;
+	width: 100%;
+
+	background-color: #ffffff;
+	font-family: "Segoe UI", sans-serif;
+	font-weight: 600;
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+
+}
+
+.logo{
+
+	height: 100%;
+	width: 20%;
+	margin-bottom: 0px;
+	margin-left: 50px;
+	margin-right: 20px;
+
+}
+
+.navbar-brand{
+
+	margin-right: 120px;
+
+}
+
+.nav-item{
+
+	margin-top: 0px;
+
+}
+
+.nav-item .nav-link1{
+
+	padding-right: 30px;
+
+}
+
+
+.nav-item .nav-link2{
+
+	padding-right: 60px;
+
+}
+
+
+.nav-item.active .nav-link1{
+
+	font-family: "Segoe UI", sans-serif;
+	font-weight: 700;
+	color: #41B883;
+	text-decoration: none;
+
+	transition: 0.5s;	
+
+}
+
+.nav-item.active .nav-link2{
+
+	font-family: "Segoe UI", sans-serif;
+	font-weight: 700;
+	color: #41B883;
+	text-decoration: none;
+
+	transition: 0.5s;	
+
+}
+
+.nav-item .navbar2-user{
+
+	padding-right: 30px;
+	margin-top: 10px;
+
+	font-family: 'Segoe UI', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	color: #41B883;
+
+}
+
+.nav-item .nav-link-2{
+
+	margin-right: 50px;
+	margin-top: 10px;
+
+}
+
+.subnavbar-main{
+
+	height: 60px;
+	width: 100%;
+
+	background-color: #35495E;
+	font-family: "Segoe UI", sans-serif;
+	font-weight: 600;
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+
+}
+
+.subnav{
+
+	margin: 0;
+	padding: 0;
+	text-align: center; 
+
+}
+
+
+.subnav-item{
+
+	display: flex;
+	margin-top: 15px;
+	padding-left: auto;
+	margin-left: 50px;
+	margin-right: 50px;
+
+	font-family: 'Segoe UI', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: #687A8D;
+
+}
+
+.subnav-item.item1{
+
+	margin-left: auto;  
+
+}
+
+.subnav-item.item5{
+
+	margin-right: auto;  
+	
+}
+
+.subnav-item.active{
+
+	font-family: "Segoe UI", sans-serif;
+	font-weight: 500;
+	color: #EEEEEE;
+
+}
+
+.subnav-item:hover{
+
+	color: #EEEEEE;
+
+	transition: 0.5s;
+
+}
+
+.fa.subnav-icon{
+
+	margin-top: 4px;
+	margin-right: 8px;
+
+	font-size: 20px;
+
+}
+
+a{
+
+	text-decoration: none;
+}
+
+li a{
+
+	font-family: 'Segoe UI', sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+	color: #606060;
+
+	transition: 0.5s;	
+
+}
+
+li a:hover{
+
+	color: #c1c1c1;
+	text-decoration: none;
+
+	transition: 0.5s;	
+
+}
+
+
+.home-text1{
+
+	margin-top: 120px;
+	margin-left: 65px;
+
+	font-family: 'Segoe UI', sans-serif;
+	font-size: 50px;
+	font-weight: 500;
+	color: #41B883;
+
+}
+
+.home-text2{
+
+	margin-left: 65px;
+
+	font-family: 'Segoe UI', sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	color: #2F2E41;
+
+}
+
+.global-btn1{
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-top: 70px;
+	margin-left: 65px;
+
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	letter-spacing: 6px;
+	color: #FFFFFF;
+	border: 1px #35495E;
+
+	background: linear-gradient(to right, rgb(65,184,131) 50%, rgb(53,73,94) 50%);
+	background-size: 200% 100%;
+	background-position: right bottom;
+
+	transition: all 0.5s ease-out;
+
+
+}
+
+.global-btn1:hover{
+
+	background-position: left bottom;
+
+}
+
+.global-btn1:focus{
+
+	outline: transparent;
+
+}
+
+.global-btn2{
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-top: 30px;
+
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	letter-spacing: 6px;
+	color: #FFFFFF;
+	border: 1px #35495E;
+
+	background-color: #35495E;
+
+	transition: 0.5s;	
+
+}
+
+.global-btn2:hover{
+
+	background-color: #35496E;
+
+	transition: 0.5s;	
+
+}
+
+.global-btn2:focus{
+
+	outline: transparent;
+
+}
+
+.global-btn2.buttonRegister{
+
+	background-color: #C1C1C1;
+
+}
+
+.home-display{
+
+	width: 850px;
+	padding-top: 50px;
+	margin-left: 50px;
+
+}
+
+.register-card{
+
+	padding: 15px;
+	margin-top: 35px;
+	margin-left: 60px;
+	margin-right: 60px;
+
+}
+
+.register-card-title{
+
+	font-family: 'Segoe UI', sans-serif;
+	font-weight: 600;
+	color: #41B883;
+
+}
+
+.register-card-subtitle{
+
+	padding-bottom: 25px;
+
+	font-family: 'Segoe UI', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #2F2E41;
+
+}
+
+.register-card-form{
+
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 20px;
+}
+
+.register-card-formName{
+
+	margin-top: 10px;
+
+	font-family: 'Segoe UI', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	color: #2F2E41;
+
+	position: absolute;
+
+}
+
+.register-card-textbox{
+
+	height: 45px;
+	width: 340px;
+	padding: 10px;
+	margin-left: 190px;
+
+	font-family: 'Segoe UI', sans-serif;
+	font-size: 17px;
+	font-weight: 600;
+	color: #2F2E41;
+
+	border: 0.14rem solid #41B883;
+
+}
+
+.register-card-textbox:focus{
+
+	outline: transparent;
+
+}
+
+.input-invalid{
+
+	border: 0.1rem solid red;
+
+}
+
